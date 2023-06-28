@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Academic Projets</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">ESIEA</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Experiences</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Academics Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Projects Section 1-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">BI & CLOUD PROJECTS</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Conteneurisation d'une application web​​</h2>
+                                            <p><strong>Aout-Septembre 2022  &emsp; &emsp;-&emsp; &emsp;  ESIEA, Paris</strong></p>
+                                            <style>
+                                                p {
+                                                  text-align: justify;
+                                                }
+                                                
+                                                ul {
+                                                  list-style-type: disc;
+                                                  margin-left: 2em;
+                                                }
+                                                </style>
+                                                
+                                                <p>Conteneurisation d'une application web appelée Udagram en utilisant Docker et déploiement de celle-ci sur un cluster Kubernetes composé de trois machines virtuelles.</p>
+                                                
+                                                <strong><p>Conteneurisation de l'application Udagram localement (Docker Desktop):</p></strong>
+                                                
+                                                <ul>
+                                                  <li>Clonage de l'application Udagram existante.</li>
+                                                  <li>Création des fichiers Dockerfile pour chaque micro-service de l'application.</li>
+                                                  <li>Configuration des fichiers .yaml pour définir les services, les déploiements et les volumes.</li>
+                                                  <li>Test des fichiers de configuration pour s'assurer que les conteneurs fonctionnent correctement.</li>
+                                                  <li>Création des images Docker pour chaque micro-service.</li>
+                                                  <li>Publication (push) des images sur DockerHub pour pouvoir les récupérer ultérieurement.</li>
+                                                </ul>
+
+
+                                                <strong><p>Orchestration et déploiement de l'application avec Kubernetes sur des VMs Ubuntu :</p></strong>
+
+                                                <ul>
+                                                  <li>Création de trois machines virtuelles, comprenant une machine maître (master) et deux machines esclaves (workers), pour former le cluster Kubernetes.</li>
+                                                  <li>Installation des composants kubelet et kubeproxy sur les machines esclaves.</li>
+                                                  <li>Jointure des machines esclaves au maître pour qu'elles puissent participer au cluster.</li>
+                                                  <li>Création des fichiers de déploiement Kubernetes (.yaml) pour chaque micro-service de l'application, définissant les conteneurs, les réplicas, les volumes, etc.</li>
+                                                  <li>Création des fichiers configmap et secrets pour la gestion des configurations et des données sensibles.</li>
+                                                  <li>Création des fichiers de service Kubernetes (.yaml) pour exposer les services internes de l'application.</li>
+                                                  <li>Configuration du port forwarding pour permettre l'accès externe au reverse proxy et à l'interface utilisateur (frontend) de l'application.</li>
+                                                </ul>
+
+                                                <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+
+                                                <p>Conteneurisation, Orchestration, Docker, Kubernetes, Docker Hub, Visual Studio Code, VMWare, Git</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Project Card 2-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Analyse statistique et prédictive des tickets restaurants​</h2>
+                                            <p><strong>Avril - Juin 2021 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis</strong></p>
+                                            <p>En utilisant un dataset contenant des conducteurs d'Amazon Mechanical Turk, j'ai développé un système de BI pour explorer les patterns dans les données (d'identifier les facteurs influençant la décision des conducteurs) et j'ai créé un algorithme de machine learning (XGBoost) pour prédire si les conducteurs accepteraient ou non des tickets restaurants gratuits.</p>
+
+                                            <p><strong>Conception du système BI</strong></p>
+                                            
+                                            <ul>
+                                              <li>Traitement des données</li>
+                                              <li>Développement du système ETL</li>
+                                              <li>Utilisation de la 3ième forme normale pour modéliser les données en utilisant un schéma en flocon</li>
+                                              <li>Création d’un cube tabulaire et calcul des indicateurs en DAX</li>
+                                              <li>Restitution de la donnée dans un dashboard Power BI</li>
+                                            </ul>
+                                            
+                                            <p><strong>Modélisation d’un système prédictif</strong></p>
+                                            
+                                            <ul>
+                                              <li>Modélisation et entraînement des algorithmes XGBoost, Random forest et SVM</li>
+                                              <li>Évaluation des performances des différents modèles en se basant sur la matrice de confusion, le recall et l'accuracy</li>
+                                            </ul>
+                                            
+                                            <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+                                            
+                                            <p>Modélisation de données, visualisation des données, BI, ETL, SQL Server, SSIS, SSAS, Power BI, DAX</p>
+                                            
+                                            <p>Machine Learning, Analyse des données, Python, sklearn</p>
+                                                                                    
+                                    </div>
+                                </div>
+                            </div></div>
+
+                            
+
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Statistique des ventes​</h2>
+                                            <p><strong>Janvier - Février 2021 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis</strong></p>
+                                            <p>Analyse statistique approfondie des ventes à partir du jeu de données "Womens Clothing E-Commerce Reviews" provenant de Kaggle.</p>
+                                            
+                                            <ul>
+                                              <li>Exploration et traitement des données​</li>
+                                              <li>Application du processus d’ETL</li>
+                                              <li>Modélisation des données et enrichissement du datawarehouse</li>
+                                              <li>Génération du cube OLAP</li>
+                                              <li>Analyse et visualisation des données</li>
+                                              <li>Création de tableau de bord Power BI</li>
+                                            </ul>
+                                            
+                                            <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+                                            <p>Modélisation des données, analyse et visualisation des données, ETL, SSIS, SSAS, power BI, SQL, Python​</p>
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">MACHINE LEARNING PROJECTS</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Conception d’un système de reconnaissance d’émotion​</h2>
+                                            <p><strong>Février - Mars 2023 &emsp; &emsp;-&emsp; &emsp; ESIEA, Paris</strong></p>
+                                            <style>
+                                                p {
+                                                  text-align: justify;
+                                                }
+                                                
+                                                ul {
+                                                  list-style-type: disc;
+                                                  margin-left: 2em;
+                                                }
+                                                </style>
+                                                
+                                                <p>Construction d'un système de reconnaissance d'émotions en Python permettant de détecter les émotions telles que joie, colère, dégoût, tristesse, peur, surprise et neutre à partir d’une image de visage. Le modèle entrainé est basé sur les coordonnées 2D des points caractéristiques (landmarks) sur chacun des visages.</p>
+                                                
+                                                <ul>
+                                                  <li>Analyse descriptive et compréhension de la structure des données</li>
+                                                  <li>Traitement des données (normalisation et PCA) ​</li>
+                                                  <li>Préparation des ensembles de données d'entraînement, de validation et de test.​</li>
+                                                  <li>Modélisation et entraînement d’un modèle MLP(Multi-layer Perceptron classifier) ​</li>
+                                                  <li>Optimisation des hyperparamètres avec la technique de GridSearch​</li>
+                                                  <li>Évaluation des performances du modèle​</li>
+                                                </ul>
+
+                                                <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+
+                                                <p>Machine Learning,  analyse et traitement des données, Python, scikit-learn, pandas, OpenCV, skimage, google colab, Matplotlib</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Project Card 2-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Conception d’un chatbot medical​​</h2>
+                                            <p><strong>Juillet- Aout 2022 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis​</strong></p>
+                                            <p>Développement d'un chatbot utilisant les bibliothèques Python NLTK et LSTM pour créer un modèle de traitement du langage naturel pour répondre à des questions dentaires.​</p>
+                                            <ul>
+                                              <li>Collecte d'un ensemble de questions et réponses pré-définies.​</li>
+                                              <li>Prétraitement des données (tokenisation, suppression des stopwords, normalisation / mise en minuscule, suppression de la ponctuation, etc.).​</li>
+                                              <li>Modélisation et entrainement d'un modèle LSTM</li>
+                                              <li>ajustement du modèle et des données pour améliorer les résultats</li>
+                                              <li>Utilisation de Tkinter pour créer l'interface graphique permettant d'afficher la réponse prédite lorsque l'utilisateur soumet une question</li>
+                                            </ul>
+                                            <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+                                       
+                                            <p>Deep Learning, Traitement du langage naturel (NLP), , Python, NLTK, TensorFlow, Tkinter​ ​</p>
+                                        </div>                                           
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Création d’un modèle non supervisé d’analyse de sentiments​​</h2>
+                                            <p><strong>Septembre- Décembre 2021 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis</strong></p>
+                                            <p>Création d'un modèle d'analyse de sentiment à partir de jeu de données de journaux américains (CNN, ABC, NBC CBS) provenant de Kaggle. Grâce à une interface graphique conçu avec Flask, ce projet vous permet de savoir si une phrase saisie est positive, négative ou neutre.​</p>
+                                            
+                                            <ul>
+                                              <li>Utilisation de Spark NLP pour configurer un pipeline de traitement des données (tokenisation, suppression des stopwords,normalisation des mots, stemming et lemmatization)​​</li>
+                                              <li>Utilisation de  word2vec pour représenter les mots sous forme de vecteurs, capturant ainsi leurs relations sémantiques</li>
+                                              <li>regroupement KMeans basé sur le modèle word2vec pour classifier les données en fonction de leur similitude sémantique​</li>
+                                              <li>Création et entraînement du modèle BI-LSTM à partir des données classifiées​</li>
+                                              <li>Déploiement de la solution à l'aide de Flask</li>
+                                              
+                                            </ul>
+                                            
+                                            <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+                                            <p>Deep Learning, NLP, Python, Spark , SparkNLP, clustering (KMeans), Flask, unsupervised Learning​​</p>
+                                            
+                                    </div>
+                                </div>
+                            </div> </div><br><br>
+
+                            <!-- Project Card 4-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Classification supervisée de Spam ​</h2>
+                                            <p><strong>Novembre- Décembre 2021 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis</strong></p>
+                                            <p>Développement d'un système de classification d'images d'animaux en utilisant des techniques d'apprentissage automatique telles que le traitement d'images et les réseaux de neurones convolutifs.​.​</p>
+                                            
+                                            <ul>
+                                              <li>Chargement et exploration des données​​</li>
+                                              <li>Prétraitement des données (Suppression de colonnes inutiles et des données manquantes).</li>
+                                              <li>Transformation du texte en données numériques et normalisation de la longueur des séquences de mots.​</li>
+                                              <li>Mise en place d'une matrice de séquence pour normaliser la longueur des séquences de mots.​</li>
+                                              <li>Modélisation, entrainement et évaluation d'un modèle de classification, tel que XGBoost​</li>
+                                              <li>Implémentation d'un modèle de classification mono-classe (SVM) pour détecter les anomalies (spam) dans les données non spam.​​</li>
+                                              <li>Comparaison des performances des modèles de classification et évaluation de leur pertinence pour la détection de spam. ​​​</li>
+                                            </ul>
+                                            
+                                            <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+                                            <p>Machine Learning, Gestion des données déséquilibrées, Python, pandas, numpy, scikit-learn, xgboost, SVM​​</p>
+                                            
+                                    </div>
+                                </div>
+                            </div></div><br><br>
+
+
+                            <!-- Project Card 5-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Construction d’un système de classification d’animaux​ ​</h2>
+                                            <p><strong>Septembre 2021 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis</strong></p>
+                                            <p>Développement d'un système de classification d'images d'animaux en utilisant des techniques d'apprentissage automatique telles le traitement d'images et les réseaux de neurones convolutifs.​</p>
+                                            
+                                            <ul>
+                                              <li>Collecte d'un ensemble de données d'images d'animaux représentant différentes espèces.​​</li>
+                                              <li>Prétraitement des images (redimensionnement, normalisation).</li>
+                                              <li>Application de la data augmentation (rotation, retournement)​</li>
+                                              <li>Séparation des données en ensembles d'apprentissage et de test pour l'évaluation du modèle.​</li>
+                                              <li>Création et Entraînement d'un modèle de réseau de neurones convolutifs (CNN) pour la classification des animaux.​​</li>
+                                              <li>Optimisation des hyperparamètres pour améliorer les performances. ​​</li>
+                                            </ul>
+                                            
+                                            <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+                                            <p>Deep Learning, data augmentation , Python , PIL, numpy, glob, sklearn, keras,​​</p>
+                                            
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+            <!-- Projects Section 3-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">DEVELOPMENT & OTHER PROJECTS</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Application de gestion des offres d’emploi​​</h2>
+                                            <p><strong>Janvier - Mars 2021 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis​</strong></p>
+                                            <style>
+                                                p {
+                                                  text-align: justify;
+                                                }
+                                                
+                                                ul {
+                                                  list-style-type: disc;
+                                                  margin-left: 2em;
+                                                }
+                                                </style>
+                                                
+                                                <p>Développement d'un site de gestion des cartes de séjour, fournissant toutes les informations nécessaires pour effectuer une demande ou un renouvellement de carte de séjour. ​</p>
+                                                
+                                                <ul>
+                                                  <li>Conception et développement de l'interface utilisateur de l'application.​</li>
+                                                  <li>Mise en place des fonctionnalités d'ajout, de modification et de suppression pour les clients, les commandes, les lignes de commande et les produits.</li>
+                                                  <li>Implémentation de la fonctionnalité d'affichage de la liste des clients, des produits et des commandes.</li>
+                                                  <li>Intégration d'une base de données (MySQL) pour stocker les informations </li>
+                                                  <li>Gestion des actions utilisateur ( validation des formulaires, la gestion des erreurs et les messages de confirmation)​</li>
+                                                  <li>Réalisation de tests pour vérifier le bon fonctionnement de l'application et la conformité des fonctionnalités.​</li>
+                                                </ul>
+
+
+                                                <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+
+                                                <p>.NET, C#, Visual Studio,  MySQL, Programmation orientée objet (POO)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- Project Card 2-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Plateforme de gestion des cartes de séjour</h2>
+                                            <p><strong>Octobre 2020 - Janvier 2021 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis</strong></p>
+                                            <p>Développement d'un site de gestion des cartes de séjour, fournissant toutes les informations nécessaires pour effectuer une demande ou un renouvellement de carte de séjour.</p>
+                            
+                                            <p><strong>Principales réalisations et responsabilités</strong></p>
+                            
+                                            <ul>
+                                                <li>Gestion agile de projet via Scrum</li>
+                                                <li>Conception de la solution en utilisant le langage UML</li>
+                                                <li>Gestion des opérations de base de données (CRUD)</li>
+                                                <li>Implémentation de la fonctionnalité d'authentification et gestion de profil</li>
+                                                <li>Mise en place de la fonctionnalité de gestion de rendez-vous en ligne</li>
+                                                <li>Gestion des autorisations et des permissions pour limiter l'accès à certaines fonctionnalités</li>
+                                                <li>Développement de l'interface utilisateur fournissant des informations sur les cartes de séjour et le processus de demande</li>
+                                                <li>Utilisation du framework Vue.js pour le développement côté client</li>
+                                                <li>Utilisation du framework Laravel pour le développement côté serveur</li>
+                                            </ul>
+                            
+                                            <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+                            
+                                            <p>Vue.js, Laravel, Scrum, UML, MySQL Server</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            
+
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">Application de gestion des offres d’emploi</h2>
+                                            <p><strong>Octobre - Septembre 2020 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis</strong></p>
+                                            <p>Ce projet consiste à développer un site de gestion des offres d'emploi.</p>
+                            
+                                            <p><strong>Principales réalisations et responsabilités</strong></p>
+                            
+                                            <ul>
+                                                <li>Gestion agile de projet via Scrum</li>
+                                                <li>Conception de la solution en utilisant le langage UML</li>
+                                                <li>Gestion des opérations de base de données (CRUD: Create, Read, Update, Delete) pour stocker et récupérer les offres d'emploi</li>
+                                                <li>Utilisation du framework Angular pour le développement côté client</li>
+                                                <li>Utilisation du framework Laravel pour le développement côté serveur</li>
+                                            </ul>
+                            
+                                            <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+                            
+                                            <p>Angular, Laravel, Scrum, UML, MySQL Server</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+                            <!-- Project Card 4-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder" >Site de vente de lunettes</h2>
+                                            <p><strong>Mars – Juin 2020 &emsp; &emsp;-&emsp; &emsp; TEK-UP, Tunis</strong></p>
+                                            <p>Ce projet vise à développer un site e-commerce permettant la gestion d'un catalogue de produits, la consultation des articles, la recherche et la passation de commandes. La fonctionnalité de paiement n'a pas encore été développée.</p>
+                            
+                                            <p><strong>Principales réalisations et responsabilités</strong></p>
+                            
+                                            <ul>
+                                                <li>Gestion agile de projet via Scrum</li>
+                                                <li>Conception de la solution en utilisant le langage UML</li>
+                                                <li>Gestion des opérations de base de données (CRUD)</li>
+                                                <li>Implémentation de la fonctionnalité d'authentification et gestion de profil</li>
+                                                <li>Utilisation du framework Angular pour le développement côté client</li>
+                                                <li>Utilisation du framework Laravel pour le développement côté serveur</li>
+                                            </ul>
+                            
+                                            <p class="fw-bolder mb-3"><strong class="text-gradient d-inline">COMPETENCES & OUTILS</strong></p>
+                            
+                                            <p>HTML/CSS, JavaScript, Symphony, MySQL</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Call to action section-->
+            <section class="py-4 bg-gradient-primary-to-secondary text-white">
+                <div class="container px-4 my-4">
+                    <div class="text-center">
+                        <h5 class="display-6 fw-bolder mb-4">Let's build something together</h5>
+                        <a class="btn btn-outline-light btn-lg px-4 py-2 fs-5 fw-bolder" href="contact.html">Contact me</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
